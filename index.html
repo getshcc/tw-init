@@ -5,15 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind</title>
+    <link rel="shortcut icon" href="assets/images/gem-stone.png" type="image/x-icon">
 
     <!-- include tailwindcss -->
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="assets/styles/tailwind.css">
 </head>
-<body>
-    <h1 class="p-3 text-2xl">Tailwind init</h1>
-    <hr>
-    <p class="p-3 text-blue-500">@getshcc</p>
+<body class="p-5 flex flex-col gap-y-5">
 
-    <script src="app.js"></script>
+    <header id="header">
+        <div class="flex items-center gap-x-4 py-2">        
+            <h1 class="text-2xl">Tailwind init</h1>
+            <a href="https://github.com/getshcc" class="text-blue-500">@getshcc</a>
+        </div>
+        <hr>
+    </header>
+
+    <main id="main">
+        Main
+    </main>
+
+
+    <footer id="footer">
+        Footer
+    </footer>
+
+    <script src="assets/scripts/app.js"></script>
 </body>
 </html>
